@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forme</title>
+  </head>
+  <body>
+     <div>
+    <form action="../4. cas vezbe/vezba5.cas.html">
+      <label for="username">Unesite vase korisnicko ime</label>
+      <input
+        type="username"
+        name="username"
+        id="username"
+        placeholder="user name"
+        required
+      />
+<br>
+    <br>
+    <label for="email">unesite vas email;</label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="user@gmail.com"
+      required
+    />
+    </br>
+  <br>
+  <label for="pass">unesite vasu lozinku;</label>
+  <input
+    type="password"
+    name="password"
+    id="password"
+    placeholder="password"
+    required
+    />
+    <br>
+    <br>
+  <label for="age"> unesite vase godine;</label>
+  <input
+    type="number"
+    name="password"
+    id="password"
+    placeholder="vase godine"
+    min="18" max="100" steps="2" number
+    />
+  </br>
+  <br>
+  <p>Oznacite vase omiljeno voce:</p>
+  <label for="jagode"> jagode  </label>
+  <input  type="checkbox" name="jagode" id="jagode"/>
+  <br>
+  <label for="banana"> banana </label>
+  <input type="checkbox" name="banana" id="banana"/>
+  <br>
+  <p>oznacite pol:</p>
+  <label for="m">M</label>
+  <input type="radio" name="pol" id="m" value="m"/>
+  <br>
+  <label for="z">Z</label>
+  <input type="radio" name="pol" id="z" value="z"/>
+</br>
+
+<label for="bio">Unesite vasu biografiju:</label>
+<br>
+<!-- textear za ispisivanje texta -->
+<textarea name="bio" id="bio" cols="30" rows="15">text...</textarea>
+<br>
+<br>
+<label for="phone"> unesite vas broj telefona</label>
+<input type="tel" name="phone" id="phone">
+<br>
+<br>
+<label for="color"> odaberite vasu boju</label>
+<input type="color" name="color" id="color"/>
+<br>
+<br>
+<label for="file">Ubacite vas CV </label>
+<input type="file" name="file" id="file">
+<br>
+<br>
+<p>Oznacite boju vasih ociju:</p>
+<select type="eyeColor" name="eyeColor" id="eyeColor">
+<option value="braon">Braon</option>
+<option value="zelena">Zelena</option>
+</select>
+<br>
+<br>
+  <button type="submit">Potvrdi</button>
+  <button type="reset">Restartuj</button>
+  </form>
+</div>
+  </body>
+</html>

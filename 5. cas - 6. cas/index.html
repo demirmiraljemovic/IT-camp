@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      /* h1 u stile predstavlja , prosecna velicina fonta je 16px */
+      h1 {
+        color: red;
+      }
+      p {
+        font-size: 18px;
+        /* font size je velicina slova */
+        text-indent: 60px;
+        /* text indent pravi razmak od dva prsta */
+        /* text algine: left defaultna vrednost */
+        text-align: right;
+        text-align: center;
+        /* primenice se uvek poslednje definisano svojstvo, css ide po redosledu */
+        text-align: justify;
+        text-transform: uppercase;
+        /* uppercase se koristi da sva slova budu velika */
+        text-transform: capitalize;
+        text-transform: none;
+        text-transform: lowercase;
+        /* sva slova ce biti mala lowercase */
+      }
+      ul {
+        list-style-position: inside;
+      }
+      .prvi {
+        background-color: darkkhaki;
+        width: 400px;
+        height: 400px;
+      }
+      #naslov {
+        color: blueviolet;
+      }
+      /* id ima prioritet u odnosu na class-u
+              obicno cemo koristiti Id kada zelimo da definisemo neki jedinstven element a class ako se vise puta ponavlja */
+      .naslov {
+        color: rgb(167, 104, 21);
+      }
+      body {
+        background-color: turquoise;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- class- prvi pristupamo sa prefiksom .prvi a id-u sa taraba naslov u cass  -->
+    <div class="prvi">
+      <h1>radimo CSS</h1>
+      <!-- jezik za definisanje stilova na nasoj stranici -->
+      <h2 id="naslov" class="naslov">Paragraf prvog kontejnera</h2>
+      <ul>
+        <li style="color: red; text-align: center">inline stilovi</li>
+        <li>stilovi definisani unutar head taga</li>
+        <li>eksterni stilovi</li>
+      </ul>
+    </div>
+    <div>
+      <h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic animi
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        vitae debitis voluptatum, tempore nobis reiciendis expedita totam
+        officia odio, veritatis sit odit tenetur sapiente facere incidunt vero,
+        adipisci iste quibusdam! Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Eligendi, dignissimos velit. Nesciunt ad asperiores
+        debitis, aut eveniet quae dolor accusamus repudiandae nisi cum obcaecati
+        libero voluptatibus. Eaque, placeat similique. Temporibus!
+      </p>
+    </div>
+  </body>
+</html>
+<!-- style u head mozemo da menjamo stil odredjenih tagova, na laksi nacin nego da ponavljamo pored svakog taga
+npr: style h1{ color:red} i svi h1 tagovi ce promeniti stil -->

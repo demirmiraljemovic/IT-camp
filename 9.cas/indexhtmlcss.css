@@ -1,0 +1,68 @@
+div {
+  width: 500px;
+  height: 500px;
+  background-image: url(../../nebo\ plavo.png);
+  background-color: bisque;
+  background-repeat: repeat;
+  background-size: contain;
+  background-size: 300px 300px;
+  background-size: 100% 100%;
+  text-align: center;
+  overflow: auto;
+}
+
+h1,
+p {
+  color: azure;
+}
+/* background-repeat je po difoltu a no repeat je da nam se ne ponavlja */
+/* background size contain razvlaci se fotograffija dok ne stigne do prve ivice 
+  cover- fotografija se razvlaci kako bi prekrila ceo kontejner [gubi se deo fotogrfije] */
+p {
+  line-height: 50px;
+}
+/* line hight razmak izmedju redova i razmak izmedju slova */
+h1 {
+  text-transform: center;
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+* {
+  margin: 0px;
+}
+.div2 {
+  width: 500px;
+  height: 500px;
+  background-image: url(../../nebo\ plavo.png);
+  background-color: bisque;
+  background-repeat: repeat;
+  background-size: contain;
+  background-size: 300px 300px;
+  background-size: 100% 100%;
+  text-align: center;
+  overflow: auto;
+}
+.hipa,
+.pipa {
+  color: #2444;
+}
+
+/* background-repeat je po difoltu a no repeat je da nam se ne ponavlja */
+/* background size contain razvlaci se fotograffija dok ne stigne do prve ivice 
+  cover- fotografija se razvlaci kako bi prekrila ceo kontejner [gubi se deo fotogrfije] */
+.p2 {
+  line-height: 50px;
+}
+/* line hight razmak izmedju redova i razmak izmedju slova */
+.hipa {
+  text-transform: center;
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: auto;
+}
