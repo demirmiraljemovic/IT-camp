@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&family=Roboto+Slab&display=swap");
+* {
+  color: blue;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  font-family: "Poppins", sans-serif;
+}
+.prvidiv {
+  width: 500px;
+  height: 600px;
+  background-color: bisque;
+}
+.privdiv p {
+  font-size: 20px;
+}
+/* scrp. za prepoznatljivost , ikonice plus i tag
+ */
