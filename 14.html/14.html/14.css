@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 20px;
+}
+.container {
+  width: 5in;
+  height: 5in;
+  float: left;
+  background-color: rgb(210, 133, 33);
+  border: 1px solid black;
+  font-size: 20px;
+}
+.container:nth-of-type(even) {
+  background-color: blueviolet;
+}
+/* (3n) stilovi za svaki 3, even za svaki drugi */
+.container:nth-last-child(2) {
+  background-color: brown;
+}
+/* promene na zadnjem elementu .2 svako drugo, 3 svako trece.. */
+/* postoje apsolutne i relativne velicine */
+/*  ovo su apsolutne velicine
+px= pixels
+cm-centimetar
+mm-milimetri
+in-inches(in-95)
+ pt-points 1pt=1/72 in
+  pc=12pt*/
+/* relativne velicine
+em - relativna u odnosu na font-size element 
+rem- relativan u odnosu na fonts size root element
+vw у односу na 1% ekrana u odnosu na sirinu
+vh u odnosu na visinu
+vmin= je relattivan  1% u odnosu na manju dimenziju ekrana ako je visina manje od sirine i obrnuto 
+vmax- relaativan je 1% u odnosu na vecu dimenziju 
+% je relativan u odnosu na parent element kontejner koji ga okruzuje najvise se koristi*/
+.container p {
+  font-size: 2em;
+}
+.procenat {
+  width: 80%;
+  height: 50%;
+}

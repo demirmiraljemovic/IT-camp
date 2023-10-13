@@ -13,9 +13,44 @@ body {
   width: 500px;
   height: 600px;
   background-color: bisque;
+  display: inline-block;
 }
 .privdiv p {
   font-size: 20px;
 }
 /* scrp. za prepoznatljivost , ikonice plus i tag
  */
+
+.second {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(132, 125, 117);
+  display: inline-block;
+}
+.instagrams {
+  color: red;
+  font-size: 100px;
+}
+.privdiv,
+.text2 {
+  color: brown;
+}
+a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 800;
+}
+a:hover {
+  color: brown;
+}
+/* display inline block sluzi da block elemente napravi u inline */
+/* sa fontsize mozemo da promenimo velicinu ikoince jer je posmatra kao font */
+/* stilovi za prvi p tag koji se nalazi nakon .first kontejnera, prvidiv > */
+/* stilovi koji se odnosi samo na prvi stil nakon kontejnera, p u ovom slucaju + */
+/* u css stilovi za slova su text decoration */
+a:active {
+  color: rgb(186, 233, 15);
+}
+
+/* active se premenjuje kada kliknemo na odrecen link, dok hover samim prelazom */
+/* visited menja boju linka nakon njegovog posecivanja, pretiskanja, neka vrsta stekliranja */

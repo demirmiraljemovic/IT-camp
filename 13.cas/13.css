@@ -1,0 +1,42 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(156, 170, 200);
+  opacity: 0.8;
+  color: aliceblue;
+}
+h2,
+h1 {
+  color: aliceblue;
+}
+.slika {
+  float: left;
+  margin: 15px;
+  opacity: 0.5;
+}
+.box {
+  width: 500px;
+  height: 700px;
+  background-color: rgb(94, 187, 187);
+  float: left;
+}
+.box2 {
+  width: 700px;
+  height: 1000px;
+  background-color: brown;
+  float: left;
+}
+.paragraf {
+  clear: both;
+}
+/* rgba boje - moguce izvesti opasiti zavi od a parametra */
+/* opasity cini ceo elemnet prozirnim sa sve sadrzajem*/
+/* clear sluzi da sadrzaj ne postane inlive ako je block, najcesce ide uy float */
